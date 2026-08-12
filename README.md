@@ -2,6 +2,10 @@
 
 A responsive weather application built with React that allows users to search for a city and view its current weather conditions along with a 5-day forecast.
 
+## Live Demo
+
+[View Live Demo](https://weather-app-nxhl.vercel.app)
+
 ## 🚀 Features
 
 - 🔍 Search weather by city name
@@ -49,27 +53,37 @@ weather-app/
 └── README.md
 ```
 
-⚙️ Getting Started
+## ⚙️ Getting Started
 1. Clone the repository
+
 git clone https://github.com/your-username/weather-app.git
 
 2. Navigate to the project
+
 cd weather-app
 
 3. Install dependencies
+
 npm install
 
 4. Create an API key
-- This project uses the OpenWeather API.
-- Create an account on OpenWeather and generate an API key.
-- Create a .env file in the project root:
-- VITE_WEATHER_API_KEY=your_api_key_here
 
-- This project uses the OpenWeather API to retrieve:
-- Current weather data
-- 5-day / 3-hour forecast data
+This project uses the OpenWeather API.
+
+Create an account on OpenWeather and generate an API key.
+
+Create a .env file in the project root:
+
+VITE_WEATHER_API_KEY=your_api_key_here
+
+This project uses the OpenWeather API to retrieve:
+ 
+Current weather data
+
+5-day / 3-hour forecast data
 
 5. Start the development server
+
 npm run dev
 
 
@@ -92,5 +106,5 @@ The API key is stored in an environment variable for security.
 - CSS Grid and Flexbox
 - Working with external APIs
 
-## 👨‍💻 Author
+## Author
 G Nihal 
